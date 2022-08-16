@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap');
+
+:root {
+    --cor-principal: rgb(105, 29, 87);
+    --cor-secundaria: rgb(118, 191, 205);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--cor-principal);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: var(--cor-secundaria);
+    border-radius: 15px;
+    margin: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+.btn-tarefa {
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(4, 0, 3);
+    color: rgb(89, 87, 88);
+    font-weight: bold;
+    padding: 4px;
+}
+
+.btn-tarefa:hover {
+    background: var(--cor-secundaria);    
+    color: rgb(89, 87, 88);
+    font-weight: bold;
+}
+
+.btn-tarefa:active {
+    background: rgb(220, 237, 65);
+}
+
+ul {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+.apagar {
+    border-radius: 10px;
+    background: black;
+    color: rgb(89, 87, 88);;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.apagar:hover {
+    background: var(--cor-secundaria);
+    color: red;
+}
+
+.apagar:active {
+    background: red;
+    color: var(--cor-secundaria);
+}
+
