@@ -16,7 +16,7 @@ inputTarefa.addEventListener('keypress', (e) => {
 
 const limpaInput = () => {
     inputTarefa.value = '';
-    inputTarefa.focus();
+    //inputTarefa.focus();
 }
 
 const criaBotaoApagar = (li) => {
